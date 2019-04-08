@@ -1,0 +1,85 @@
+/**color: #FC9206**/
+body, .smooth-container { scroll-behavior: smooth }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+}
+a:hover{
+    text-decoration: none;
+}
+.headerBanner{
+    background: url(/img/man-new.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px !important;
+  padding: 60px 30px;
+}
+
+.content{
+    padding-top: 30px;
+    color: #fff;
+}
+
+.content > h1{
+    text-shadow: 2px 3px 6px #645c5c;
+}
+
+.but{
+   
+    color: #FC9206;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    background: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 100;
+    
+}
+
+a.but:hover{
+text-decoration: none;
+color: #fff !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+#sign-up{
+    padding: 40px 0px 40px 0px;
+    background-color: #FC9206;
+}
+
+.navheader > a{
+   
+}
+
+.navheader > a:hover{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 20px;
+    transition: all 60.3s ease 0s;
+    border-bottom: solid #000;
+    border-bottom-width: 5px !important;
+}
